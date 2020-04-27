@@ -6,15 +6,38 @@
     "engines": {
         "vscode": "^1.44.0"
     },
+    "icon": "minimoi.ico",
+	"repository": {
+		"url": "https://github.com/JimHin/phpjim"
+	},
     "categories": [
         "Snippets"
     ],
+    "activationEvents": [
+		"onLanguage:html",
+		"onLanguage:css",
+		"onLanguage:php",
+		"onLanguage:javascript"
+	],
     "contributes": {
         "snippets": [
             {
                 "language": "php",
                 "path": "./snippets/snippets.json"
-            }
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets_js.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets_html.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/snippets_css.json"
+            },
+
         ]
     }
 }
