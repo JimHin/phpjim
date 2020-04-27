@@ -1,5 +1,19 @@
 {
-
+    "squelette ajax": {
+		"prefix": "hc-js-ajax-squelette",
+		"body": [
+			"var xhttp = new XMLHttpRequest();",
+			"xhttp.onreadystatechange = function() {",
+			"if (this.readyState == 4 && this.status == 200) {",
+			"document.getElementById('demo').innerHTML = this.responseText;",
+			"}",
+			"};",
+			"//le fichier spécifié ci dessous peut être un fichier à lire ou à éxecuter",
+			"xhttp.open('GET', 'chemin_vers_fichier_destination', true);",
+			"xhttp.send();"
+		],
+		"description": "Squelette d'une requête ajax de base"
+	}
 
 
 

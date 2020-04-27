@@ -268,7 +268,32 @@
 			"        </script>"
 		],
 		"description": "Une fonction ajax à déclencher incluse dans une balise <script>"
+	},
+	"Tutoriel pour afficher en couleur la documentation des commandes dans le terminal linux": {
+		"prefix": "hc-html-TUTO-man-en-couleur-dans-shell",
+		"body": [
+			"<!--   ",
+			"",
+			"TUTORIEL POUR AFFICHER LES DOCUMENTATIONS",
+			"        DU TERMINAL EN COULEUR",
+			"",
+			"Installez le paquet most",
+			"",
+			"sudo apt install most",
+			"",
+			"Une fois installé, tapez la commande suivante :",
+			"",
+			"sudo update-alternatives --config pager",
+			"",
+			"Faites le choix n°3",
+			"",
+			"puis Appuyez sur ENTREE",
+			"",
+			"-->"
+		],
+		"description": "Un tuto pour afficher la documentation man dans le shell Linux"
 	}
+
 
 
 
