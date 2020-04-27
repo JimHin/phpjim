@@ -1,6 +1,11 @@
 {
     "name": "phpjim",
     "displayName": "phpjim",
+    "author": {
+		"name": "jean-michel hinicker",
+		"email": "jeanmichelhinicker@gmail.com"
+	},
+	"publisher": "Hinicker",
     "description": "une extension de snippets pour démarrer en php",
     "version": "0.0.1",
     "engines": {
