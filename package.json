@@ -41,7 +41,7 @@
             {
                 "language": "css",
                 "path": "./snippets/snippets_css.json"
-            },
+            }
 
         ]
     }
