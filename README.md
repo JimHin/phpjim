@@ -23,12 +23,12 @@ Pas de problème connu.
 
 Version Initiale avec les templates html, bootstrap et canvas centré sur page.
 
-### 1.0.0
+### 0.0.2
 
 Initial release of ...
 
 
-### 1.1.0
+### 0.1.0
 
 Aucune fonctionnalités autre que les snippets prévues pour le moment.
 
